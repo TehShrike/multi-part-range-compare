@@ -1,0 +1,31 @@
+{
+  "name": "multi-part-range-compare",
+  "version": "1.0.0",
+  "description": "Check if a multi-part value is contained within a range of multi-part numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js && jsmd readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/multi-part-range-compare.git"
+  },
+  "keywords": [
+    "range",
+    "chapter",
+    "verse",
+    "compare",
+    "sort",
+    "date",
+    "ip",
+    "month",
+    "year",
+    "day"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/multi-part-range-compare/issues"
+  },
+  "homepage": "https://github.com/TehShrike/multi-part-range-compare#readme"
+}
