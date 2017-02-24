@@ -1,6 +1,6 @@
 {
   "name": "multi-part-range-compare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given a multi-part range (think day/hour/minute or chapter/verse), check to see if a value is within the range.",
   "main": "index.js",
   "scripts": {
