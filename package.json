@@ -1,10 +1,10 @@
 {
   "name": "multi-part-range-compare",
   "version": "1.0.0",
-  "description": "Check if a multi-part value is contained within a range of multi-part numbers",
+  "description": "Given a multi-part range (think day/hour/minute or chapter/verse), check to see if a value is within the range.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js && jsmd readme.md"
+    "test": "tape test.js && echo 'Testing readme...' && jsmd readme.md"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/TehShrike/multi-part-range-compare/issues"
   },
-  "homepage": "https://github.com/TehShrike/multi-part-range-compare#readme"
+  "homepage": "https://github.com/TehShrike/multi-part-range-compare#readme",
+  "devDependencies": {
+    "jsmd": "0.3.1",
+    "tape": "4.6.3"
+  }
 }
