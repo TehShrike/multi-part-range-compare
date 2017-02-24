@@ -46,19 +46,11 @@ Returns 0 if `value` is within the range.
 withinRange.relative([1, 0], [2, 0], [0, 5]) // => withinRange.LESS_THAN_START
 withinRange.relative([1, 0], [2, 0], [1, 4]) // => withinRange.WITHIN
 withinRange.relative([1, 0], [2, 0], [2, 1]) // => withinRange.GREATER_THAN_END
+
+withinRange.LESS_THAN_START // => -1
+withinRange.WITHIN // => 0
+withinRange.GREATER_THAN_END // => 1
 ```
-
-## `withinRange.LESS_THAN_START`
-
-`-1`
-
-## `withinRange.WITHIN`
-
-`0`
-
-## `withinRange.GREATER_THAN_END`
-
-`1`
 
 # License
 
