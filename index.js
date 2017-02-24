@@ -22,10 +22,6 @@ function relative(rangeStart, rangeEnd, value) {
 }
 
 function compareTwoValues(target, value) {
-	// For each value: if value is less than target, LESS_THAN
-	// if value is greater than target, GREATER_THAN
-	// if value is equal to target, go to the next number
-
 	for (var i = 0; i < target.length; ++i) {
 		let currentTarget = target[i]
 		let currentValue = value[i]
