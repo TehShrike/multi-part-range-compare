@@ -9,7 +9,7 @@ function withinRange(rangeStart, rangeEnd, value) {
 
 function relative(rangeStart, rangeEnd, value) {
 	if (rangeStart.length !== rangeEnd.length || rangeEnd.length !== value.length || rangeStart.length === 0) {
-		throw new Error(`All values must have the same positive number of elements`)
+		throw new Error('All values must have the same positive number of elements')
 	}
 
 	if (compareTwoValues(rangeStart, value) === LESS_THAN) {
